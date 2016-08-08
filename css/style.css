@@ -1,0 +1,221 @@
+
+@media (max-width: 800px) { 
+	
+	header{
+		 width: 100% !important;
+		
+	}
+	
+	
+	header nav{
+		 width: 100% !important;
+
+		
+	}
+	
+	header nav ul {
+		width: 100%;
+	}
+	
+	header nav li{
+		 width: 100%;
+		display: block;
+	}
+	
+	.header-underline{
+		width: 100%;
+		float:right;
+	}
+	
+	.images ul{
+
+			width: 100% !important;
+	}
+	
+	.images ul li{
+			display: block;
+			width: 100%;
+	}
+	
+	.big-img{
+		width:100%;
+		height:100%;
+	}
+
+	.footer{
+		width:100% !important;
+
+	}
+	
+	.footer ul{
+		width:100% !important;
+
+	}
+	
+	
+	.footer ul li{
+		width:100%;
+		display: block;
+	}
+}
+
+body{
+    font-size: 15px;
+    font-family: 'Arial (Hebrew)', Arial;
+    width: 100%;
+    margin: auto;
+    direction: rtl;
+    line-height: 1.1;
+}
+
+
+
+header {
+	width:780px;
+	margin:0 auto;	
+}
+
+
+
+.logo-img{
+    
+   
+	float:right;
+}
+
+
+
+nav {
+     margin: 0;
+     padding: 0;
+     float:right;
+  	 background-color: rgb(101, 55, 28);
+  	 width:664px;	
+  	 display:block;	
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+ 	float:right;
+	width: 100%;
+	text-align:center;
+
+}
+
+nav ul li{
+	
+    color: #fff;
+	font-size: 15px;
+	font-weight: bold;
+	display:inline-block;
+	vertical-align:middle;
+	padding : 5px;
+	
+}
+
+ nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+    
+}
+
+.header-underline{
+	background-color:#F7941D;
+	display:inline-block;
+	height:22px;
+	width:100%;
+}
+
+.big-img{
+	margin:0 auto;
+	text-align: center;
+	display:block;
+
+}
+
+
+p{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13pt;
+	font-style: normal;
+	font-weight: bold;
+	text-align: right;
+	color: #482507;
+	vertical-align: top;
+}
+
+
+.images{
+
+	display: block;
+	width: 100%;
+}
+
+
+.images ul{
+
+	list-style-type: none;
+    padding: 0;
+    display: block;
+	margin:2% auto;
+	width:670px;
+	
+}
+
+.images ul li{
+	display:inline-block;
+	padding:5px;
+	
+	
+}
+
+.small-img{
+	width: 28%;
+	
+}
+
+.footer{
+	width: 670px;
+	color:#68361B;;
+	font-size: 8pt;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+
+.footer ul{
+
+	list-style-type: none;
+    padding: 0;
+    display: block;	
+}
+
+.footer ul li{
+
+    display: inline-block;	
+}
+
+.footer ul li a{
+
+    color:#68361B;
+	font-size: 8pt;
+}
+
+.footer-right{
+	float:right;
+}
+
+
+.footer-left{
+	float:left;
+}
+
+.clearfix{
+	clear:both;
+	
+}
+
